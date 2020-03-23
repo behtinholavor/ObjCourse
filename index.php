@@ -1,10 +1,11 @@
 <?php
 require "programador.php";
 
-$dev = new Programador("Roberto Lavôr", "PHP");
-echo $dev->getNome();
+$programador = new Programador("Roberto Lavôr", "PHP");
+echo $programador->getNome();
 echo "<br>";
-echo $dev->getLinguagem();
+echo $programador->getLinguagem();
 echo "<br>";
+echo $programador::ESPECIE
 
 ?>
