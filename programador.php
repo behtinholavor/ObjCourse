@@ -7,6 +7,7 @@ class Programador extends Pessoa {
 	public function __construct($name, $language){
 		$this->nome = $name;
 		$this->language = $language;
+		echo "<bar>Objeto ".__CLASS__." foi instanciado.<br>";
 	}
 
 	// public function setLinguagem($language) {
