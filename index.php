@@ -1,11 +1,8 @@
 <?php
-require "programador.php";
+include "Conectar1.php";
+include "Conectar2.php";
 
-$programador = new Programador("Roberto Lavôr", "PHP");
-echo $programador->getNome();
-echo "<br>";
-echo $programador->getLinguagem();
-echo "<br>";
-echo $programador::ESPECIE
+ConectarBanco\conectar();
+ConectarSite\conectar();
 
 ?>
