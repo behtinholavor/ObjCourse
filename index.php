@@ -1,10 +1,10 @@
 <?php
 require "pessoa.php";
 
-$people = new Pessoa;
-$people->setNome("Roberto José de Lavôr Rodrigues");
-echo $people->getNome();
+$pessoa = new Pessoa("Roberto José de Lavôr Rodrigues");
+//$pessoa->setNome();
+echo $pessoa->getNome();
 
 
-//var_dump($people);
+//var_dump($pessoa);
 ?>
